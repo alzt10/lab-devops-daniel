@@ -24,7 +24,7 @@ jobs:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::<108452166361>:role/github-actions-deploy-role
+          role-to-assume: arn:aws:iam::108452166361:role/github-actions-deploy-role
           aws-region: us-east-1
 
       - name: Deploy to Lambda
