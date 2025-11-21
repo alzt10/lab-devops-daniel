@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Empaquetando Lambda"
+      - cd lambda
+      - zip ../function.zip lambda_function.py
+
+artifacts:
+  files:
+    - function.zip
