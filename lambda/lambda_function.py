@@ -1,5 +1,2 @@
 def lambda_handler(event, context):
-    return {
-        "statusCode": 200,
-        "body": "Hola mundo desde CI/CD con CodePipeline"
-    }
+    return {"message": "Versión 2 desde GitHub Actions 🚀"}
